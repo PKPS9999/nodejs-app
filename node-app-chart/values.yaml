@@ -1,0 +1,7 @@
+replicaCount: 3
+image:
+  repository: sivadevops28041999/nodejsapp
+  tag: latest
+service:
+  type: ClusterIP
+  port: 3000
