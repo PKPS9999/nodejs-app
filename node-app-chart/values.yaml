@@ -1,6 +1,6 @@
 replicaCount: 3
 image:
-  repository: sivadevops28041999/nodejsapp
+  repository: sivadevops28041999/node-app
   tag: latest
 service:
   type: ClusterIP
