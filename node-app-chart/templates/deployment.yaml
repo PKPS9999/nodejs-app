@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: "{{sivadevops28041999/nodejs}}:{{ latest}}"
+        image: "{{sivadevops28041999/node-app}}:{{ latest}}"
         ports:
         - containerPort: 3000
